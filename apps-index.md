@@ -32,11 +32,11 @@ Reports live in [../competitive-apps/](../competitive-apps/).
 
 Adjacent to Tend's space — these are studied for craft, information architecture, and design polish rather than gamification or witchy aesthetics. They set the "Linear-tier polish" ceiling Tend should aspire to.
 
-- ⬜ **Things 3** — Cultured Code's Apple Design Award-winning task manager. The gold standard for minimal, refined, considered iOS app design. Famous for the "Today" / "Upcoming" / "Anytime" / "Someday" structure and a magazine-quality typographic hierarchy.
-- ⬜ **Todoist** — Cross-platform task manager with natural-language input ("buy milk tomorrow at 5pm"). Clean modern design, well-considered projects/labels/filters/karma system, generous free tier.
+- ✅ **Things 3** ([report](sample/things-3.md)) — Cultured Code's Apple Design Award-winning task manager. The gold standard for minimal, refined, considered iOS app design. Famous for the "Today" / "Upcoming" / "Anytime" / "Someday" structure and a magazine-quality typographic hierarchy.
+- ✅ **Todoist** ([report](sample/todoist.md)) — Cross-platform task manager with natural-language input ("buy milk tomorrow at 5pm"). Clean modern design, well-considered projects/labels/filters/karma system, generous free tier.
 - ⬜ **TickTick** — All-in-one productivity: tasks, habits, pomodoro timer, calendar, sleep tracking. Strong feature-density-without-clutter execution and the only major todo with built-in habit tracking.
 - ⬜ **Sunsama** — Calm, intentional daily planner that pulls in tasks from email/Slack/Notion/Asana and forces you to plan a realistic day. Beautiful warm design, anti-overwhelm philosophy. Closest spiritually to a "daily routine" app.
-- ⬜ **Linear** — Software project management. The reference for "Linear-tier polish" — keyboard-first, instant UI response, opinionated information architecture, exemplary use of color and typography in a dense product surface.
+- ✅ **Linear** ([report](sample/linear.md)) — Software project management. The reference for "Linear-tier polish" — keyboard-first, instant UI response, opinionated information architecture, exemplary use of color and typography in a dense product surface.
 - ⬜ **Notion Calendar** (formerly Cron) — Calendar app with high design polish: multi-account, native menu-bar, keyboard shortcuts, instant rendering. Acquired by Notion in 2024.
 - ⬜ **Sorted 3** — Time-blocking task manager with a beautiful day-grid schedule visualization. "Hyper-scheduling" mode auto-schedules undone tasks. iOS/Mac only.
 - ⬜ **Akiflow** — Daily planning hub combining tasks, calendar, and email triage into one keyboard-driven surface. Strong information architecture for a complex problem space.

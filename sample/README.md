@@ -2,7 +2,7 @@
 
 Deep-dive visual UX/design research on habit, wellness, focus, journaling, astrology, tarot, witchy-routine, and related apps + games. Each report gathers screenshots and embeds them inline with captions, then ends with a `Design language & takeaways` section.
 
-**Total: 35 reports.** See [../intake/apps_index.md](../intake/apps_index.md) for the full catalog (49 apps/games/brands) with ✅/⬜/📝/⏭ status markers.
+**Total: 38 reports.** See [../apps-index.md](../apps-index.md) for the full catalog with ✅/⬜/📝/⏭ status markers.
 
 ## Tend-specific framing
 
@@ -47,6 +47,9 @@ Tend is a daily routine app with a witchy/pagan/occult aesthetic where habits ar
 | **Daylio** | [daylio.md](daylio.md) | 106 | Icons replace text everywhere — 2-tap mood + activity logging. "Year in Pixels" is brand-owned IP. |
 | **Streaks** | [streaks.md](streaks.md) | 60 | The cap is the product — 6 habits per page is a positioning decision. One primitive (the ring) repeated everywhere. |
 | **Forest** | [forest.md](forest.md) | 59 | The withered tree is the product — failed sessions leave a permanent scar. Loss-aversion at textbook level. The accumulating forest IS the dataviz. |
+| **Things 3** | [things-3.md](things-3.md) | 26 | Typography is the only hierarchy tool — zero dividers, size/weight/opacity alone separate areas from projects from tasks. Progressive disclosure keeps the list calm; all ritual metadata lives behind a tap. |
+| **Todoist** | [todoist.md](todoist.md) | 36 | Two-accent discipline (priority red + link blue on neutral ground) is the model for keeping Tend's occult palette from overwhelming daily-use screens. Karma view is isolated — direct pattern for deity-favor scoring. |
+| **Linear** | [linear.md](linear.md) | 29 | Warm near-black base (not cool gray) proves atmosphere comes from warmth, not darkness — directly applicable to Tend's palette. Every surface is a first-class product screen; no "settings divergence." |
 
 ## Cross-cutting themes for Tend
 
