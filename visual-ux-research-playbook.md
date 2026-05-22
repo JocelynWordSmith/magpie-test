@@ -22,7 +22,7 @@ Reports are written from the perspective of a specific project being designed �
 ## 2. Output structure
 
 ```
-<repo>/research/competitive-apps/
+<repo>/sample/
 ├── README.md                  # Master index (rewritten after each batch)
 ├── <slug>.md                  # One report per app
 ├── <slug>.md
@@ -37,7 +37,7 @@ Reports are written from the perspective of a specific project being designed �
 
 **Slugs:** lowercase kebab-case, derived from the app name. e.g., `Cult of the Lamb` → `cult-of-the-lamb`, `The Pattern` → `the-pattern`, `Zombies, Run!` → `zombies-run`.
 
-Optionally maintain a status catalog at `<repo>/research/intake/apps_index.md` listing every app with a ✅ / ⬜ / 📝 / ⏭ status marker (see step 8).
+Optionally maintain a status catalog at `<repo>/apps-index.md` listing every app with a ✅ / ⬜ / 📝 / ⏭ status marker (see step 8).
 
 ---
 
@@ -56,7 +56,7 @@ Every agent prompt embeds a 1-2 sentence version of this so its takeaways sectio
 
 ## 4. Selecting apps to research
 
-If starting from scratch, write `research/intake/apps_index.md` first — a catalog of candidate apps organized by function (habit trackers, focus timers, astrology apps, games with relevant aesthetic, etc.) with 1-2 sentence summaries each.
+If starting from scratch, write `apps-index.md` first — a catalog of candidate apps organized by function (habit trackers, focus timers, astrology apps, games with relevant aesthetic, etc.) with 1-2 sentence summaries each.
 
 Add a status legend so the user can flag what to research:
 
@@ -78,7 +78,7 @@ Each agent does the following, in this exact order:
 ### 5a. Create the image directory
 
 ```bash
-mkdir -p research/competitive-apps/images/<slug>/
+mkdir -p sample/images/<slug>/
 ```
 
 ### 5b. Find and download images
@@ -110,8 +110,8 @@ Skip a source after 2 failed retries — don't burn time fighting one site.
 ### 5c. Verify downloads
 
 ```bash
-file research/competitive-apps/images/<slug>/*    # confirm they're real images, not HTML error pages
-find research/competitive-apps/images/<slug>/ -type f -size -5k -delete   # remove tracking pixels / failed downloads
+file sample/images/<slug>/*    # confirm they're real images, not HTML error pages
+find sample/images/<slug>/ -type f -size -5k -delete   # remove tracking pixels / failed downloads
 ```
 
 ### 5d. Compress images (NEW — required step)
@@ -123,19 +123,19 @@ Downloaded images can be huge (4 MB+ App Store hero shots). Compress aggressivel
 ```bash
 # Option A — sips (built-in on macOS, no install)
 # Resize to 1600px on longest side, JPEG quality 75
-for img in research/competitive-apps/images/<slug>/*.{jpg,jpeg,png,webp}; do
+for img in sample/images/<slug>/*.{jpg,jpeg,png,webp}; do
   [ -f "$img" ] || continue
   sips -Z 1600 "$img" >/dev/null 2>&1
 done
 
 # Option B — ImageMagick (cross-platform)
-for img in research/competitive-apps/images/<slug>/*.{jpg,jpeg,png,webp}; do
+for img in sample/images/<slug>/*.{jpg,jpeg,png,webp}; do
   [ -f "$img" ] || continue
   magick "$img" -resize '1600x1600>' -quality 78 -strip "$img"
 done
 
 # Option C — cwebp (best ratio, but emits .webp)
-for img in research/competitive-apps/images/<slug>/*.png; do
+for img in sample/images/<slug>/*.png; do
   [ -f "$img" ] || continue
   cwebp -q 78 -resize 1600 0 "$img" -o "${img%.png}.webp" && rm "$img"
 done
@@ -149,14 +149,14 @@ If a tool isn't available, fall back to the next option. If none are available, 
 
 ```bash
 # Drop any file >2 MB as a crude proxy for "too big to embed"
-find research/competitive-apps/images/<slug>/ -type f -size +2M -delete
+find sample/images/<slug>/ -type f -size +2M -delete
 ```
 
 ### 5e. Inventory what's available
 
 ```bash
-ls research/competitive-apps/images/<slug>/ | wc -l    # total count
-ls research/competitive-apps/images/<slug>/            # filenames (grep for specifics)
+ls sample/images/<slug>/ | wc -l    # total count
+ls sample/images/<slug>/            # filenames (grep for specifics)
 ```
 
 Do **not** paste the full ls output anywhere — it bloats context. Just count, then grep for specific categories (`ls | grep onboarding`, `ls | grep portrait`).
@@ -275,21 +275,21 @@ If a session limit hits mid-batch, image directories usually survive (they were 
 
 1. **Verify image syntax** in every report:
    ```bash
-   for f in research/competitive-apps/*.md; do
+   for f in sample/*.md; do
      refs=$(grep -c '!\[' "$f")
      echo "$f: $refs image refs"
    done
    ```
    Any report with 0 refs has the backtick bug — fix by converting `` `images/<slug>/<file>` — caption `` to `![caption](images/<slug>/<file>)`.
 
-2. **Update the status catalog** (`research/intake/apps_index.md`):
-   - Flip every 📝 to ✅ with `([report](../competitive-apps/<slug>.md))` inline
+2. **Update the status catalog** (`apps-index.md`):
+   - Flip every 📝 to ✅ with `([report](sample/<slug>.md))` inline
 
-3. **Rewrite the master README** (`research/competitive-apps/README.md`) with:
+3. **Rewrite the master README** (`sample/README.md`) with:
    - Reports table (App | link | image count | one-line standout finding for the calling project)
    - Cross-cutting themes section (aesthetic candidates, character-design references, mechanic models, anti-patterns)
 
-4. **Repo size check** — total image dataset can easily reach 150-300 MB. Decide: commit to a public repo? Put in a private/research branch? Add `research/competitive-apps/images/` to `.gitignore` and keep local-only?
+4. **Repo size check** — total image dataset can easily reach 150-300 MB. Decide: commit to a public repo? Put in a private/research branch? Add `sample/images/` to `.gitignore` and keep local-only?
 
 ---
 
