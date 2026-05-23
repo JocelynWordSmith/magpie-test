@@ -88,7 +88,7 @@ Adjacent to Tend's space — these are studied for craft, information architectu
 ## Astrology Apps
 
 - ✅ **Co-Star** ([report](../competitive-apps/co-star.md)) — AI-powered astrology with stark black-and-white editorial design and famously blunt push-notification copy. Won a 2024 Webby for Best Visual Design.
-- ⬜ **Nebula** — Astrology and horoscope app with starfield backgrounds, zodiac glyphs, and a deep purple/blue cosmic palette.
+- ✅ **Nebula** ([report](sample/nebula.md)) — Astrology and horoscope app with starfield backgrounds, zodiac glyphs, and a deep purple/blue cosmic palette.
 - ✅ **The Pattern** ([report](../competitive-apps/the-pattern.md)) — Psychological astrology app with a moody dark UI, teal accents, and personality insights presented as themed cards. Audio insight series add intimacy.
 - ✅ **CHANI** ([report](../competitive-apps/chani.md)) — Astrology app by Chani Nicholas with a warm collage-art identity in blush, lavender, and off-white. Inclusive, zine-like, intentionally non-edgy.
 - ⬜ **Sanctuary** — Astrology app with live-chat human astrologers, vibrant playful colors, and a friendly messaging-app interface aimed at newcomers.
@@ -138,15 +138,16 @@ Adjacent to Tend's space — these are studied for craft, information architectu
 
 - ⬜ **Okami** — Shinto sun goddess Amaterasu restoring mythological Japan using the Celestial Brush. Sumi-e and ukiyo-e cel-shading turns the entire world into a living Japanese watercolor scroll.
 - ✅ **Spiritfarer** ([report](../competitive-apps/spiritfarer.md)) — Hand-drawn 2D management game about ferrying spirits to the afterlife. Studio-Ghibli-influenced pastel palette with melancholic warmth.
+- ✅ **Sayonara Wild Hearts** ([report](sample/sayonara-wild-hearts.md)) — Simogo/Annapurna Interactive's "pop album video game." Neon-on-black rhythm runner with tarot-card chapter breaks, a lone feminine protagonist, and cosmic/lunar imagery woven into every frame. One of the strongest references for Tend's visual register: occult symbolism rendered at AAA aesthetic quality.
 
 ---
 
 ## Witchy Brands & Physical Goods
 
-- ⬜ **Sabbat Box** — Subscription box for Pagans and witches with seasonal themes tied to the Wheel of the Year. Rich earthy tones and handcrafted product photography.
-- ⬜ **House of Intuition** — LA spiritual-goods brand with clean, modern, approachable design bridging witchcraft and contemporary wellness.
-- ⬜ **Rite of Ritual** — Calgary metaphysical boutique with a moody, dark, intentionally curated apothecary aesthetic.
+- ✅ **Sabbat Box** ([report](sample/sabbat-box.md)) — Subscription box for Pagans and witches with seasonal themes tied to the Wheel of the Year. Rich earthy tones and handcrafted product photography.
+- ✅ **House of Intuition** ([report](sample/house-of-intuition.md)) — LA spiritual-goods brand with clean, modern, approachable design bridging witchcraft and contemporary wellness.
+- ✅ **Rite of Ritual** ([report](sample/rite-of-ritual.md)) — Calgary metaphysical boutique with a moody, dark, intentionally curated apothecary aesthetic.
 
 ## Aesthetic Genre Reference
 
-- ⬜ **Salem (Witch House music)** — Touchstone band for the "witch house" microgenre's visual identity: inverted crosses, triangles, Unicode symbols, VHS distortion, and grainy dark imagery.
+- ✅ **Salem (Witch House music)** ([report](sample/witch-house.md)) — Touchstone band for the "witch house" microgenre's visual identity: inverted crosses, triangles, Unicode symbols, VHS distortion, and grainy dark imagery.

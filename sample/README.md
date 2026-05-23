@@ -2,7 +2,7 @@
 
 Deep-dive visual UX/design research on habit, wellness, focus, journaling, astrology, tarot, witchy-routine, and related apps + games. Each report gathers screenshots and embeds them inline with captions, then ends with a `Design language & takeaways` section.
 
-**Total: 38 reports.** See [../apps-index.md](../apps-index.md) for the full catalog with ✅/⬜/📝/⏭ status markers.
+**Total: 45 reports.** See [../apps-index.md](../apps-index.md) for the full catalog with ✅/⬜/📝/⏭ status markers.
 
 ## Tend-specific framing
 
@@ -50,6 +50,12 @@ Tend is a daily routine app with a witchy/pagan/occult aesthetic where habits ar
 | **Things 3** | [things-3.md](things-3.md) | 26 | Typography is the only hierarchy tool — zero dividers, size/weight/opacity alone separate areas from projects from tasks. Progressive disclosure keeps the list calm; all ritual metadata lives behind a tap. |
 | **Todoist** | [todoist.md](todoist.md) | 36 | Two-accent discipline (priority red + link blue on neutral ground) is the model for keeping Tend's occult palette from overwhelming daily-use screens. Karma view is isolated — direct pattern for deity-favor scoring. |
 | **Linear** | [linear.md](linear.md) | 29 | Warm near-black base (not cool gray) proves atmosphere comes from warmth, not darkness — directly applicable to Tend's palette. Every surface is a first-class product screen; no "settings divergence." |
+| **Sayonara Wild Hearts** | [sayonara-wild-hearts.md](sayonara-wild-hearts.md) | 21 | Strict 3-neon system (magenta/violet/cobalt) per chapter/archetype — each "owns" a distinct neon pair. Direct model for per-deity color domains. White-silhouette UI elements stay legible across any deity's color. |
+| **Nebula** | [nebula.md](nebula.md) | 26 | Near-black starfield + single warm-gold accent reserved exclusively for premium/CTA moments — adopt the same restraint. Deity/rune glyphs need a luminous halo to be legible at habit-list size on dark backgrounds. |
+| **Sabbat Box** | [sabbat-box.md](sabbat-box.md) | 22 | Seasonal sabbat color-switching system: amber-ochre for Lammas, deep purple-black for Samhain, white-lavender for Imbolc — map directly to Tend's sabbat-keyed theme palettes. Paywall and onboarding should be ceremonial-dark, not commercial-clean. |
+| **House of Intuition** | [house-of-intuition.md](house-of-intuition.md) | 28 | Navigation organized around intention/desire states ("Protection," "Abundance," "Self Love") not product type — blueprint for Tend's deity/offering IA. Copy addresses users as already on the path, never as outsiders. |
+| **Rite of Ritual** | [rite-of-ritual.md](rite-of-ritual.md) | 28 | Moody weight carried entirely by photography palette and prop styling, not gothic letterforms — Tend should do the same. Astro Magic spray series maps each celestial body to a distinct jewel-tone: direct model for deity-to-color taxonomy. |
+| **Witch House (Salem)** | [witch-house.md](witch-house.md) | 21 | Unicode/alchemical glyphs as typography is the genre's most transferable idea — flip from exclusionary to legible. Tend's critical distinction: substitute amber/gold/violet for the genre's cold blue-black to shift from nihilistic to sacred. |
 
 ## Cross-cutting themes for Tend
 
